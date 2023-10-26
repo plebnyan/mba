@@ -1,11 +1,9 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 
 
-data = pd.read_excel(r"D:\Scrpits\RoadShow\result.xlsx")
+data = pd.read_excel(r"result.xlsx")
 
 
 
