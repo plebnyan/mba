@@ -7,7 +7,8 @@ st.set_page_config(page_title='Market Basket Analysis',
                         page_icon = ':rocket:', 
                         initial_sidebar_state = 'auto',
                         layout='wide')
-
+st.image("ch.png")
+st.title("Market Basket Analysis Demo :shopping_trolley:🤖")
 data = pd.read_excel("result.xlsx")
 
 selected_antecedent = st.selectbox('Select an Item :shopping_trolley:', data['item1'].unique())
