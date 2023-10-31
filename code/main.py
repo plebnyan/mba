@@ -7,6 +7,7 @@ st.set_page_config(page_title='Market Basket Analysis',
                         page_icon = ':rocket:', 
                         initial_sidebar_state = 'auto',
                         layout='wide')
+st.image("LOGO_White-removebg-preview.png")
 
 st.title("Market Basket Analysis Demo :shopping_trolley:")
 data = pd.read_excel("result.xlsx")
