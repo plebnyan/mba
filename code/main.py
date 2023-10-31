@@ -7,6 +7,10 @@ st.set_page_config(page_title='Market Basket Analysis',
                         page_icon = ':rocket:', 
                         initial_sidebar_state = 'auto',
                         layout='wide')
+st.write(
+    f'<style>div.stImage img {{width: 150px; height: auto; position: absolute; top: 10px; right: 10px;}}</style>',
+    unsafe_allow_html=True,
+)
 st.image("LOGO_White-removebg-preview.png")
 
 st.title("Market Basket Analysis Demo :shopping_trolley:")
